@@ -1,0 +1,1 @@
+..\kkrunchy.exe --best --refsize 20 --out .\glrez_kkr.exe .\release\glrez.exe

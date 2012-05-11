@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: glrez - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/data.res" /d "NDEBUG" "F:\code\glrez\data.rc"" 
+Creating temporary file "C:\DOCUME~1\ese\LOCALS~1\Temp\RSP22E.tmp" with contents
+[
+/nologo /G6 /ML /W3 /Ox /Og /Oi /Os /I "../minifmod/lib" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\code\glrez\glrez.cpp"
+"F:\code\glrez\nolibc.cpp"
+"F:\code\glrez\timer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ese\LOCALS~1\Temp\RSP22E.tmp" 
+Creating temporary file "C:\DOCUME~1\ese\LOCALS~1\Temp\RSP22F.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib winmm.lib user32.lib gdi32.lib kernel32.lib /nologo /base:"0x420000" /subsystem:windows /pdb:none /machine:I386 /nodefaultlib:"msvcrtd.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib /out:"Release/glrez.exe" 
+.\Release\glrez.obj
+.\Release\nolibc.obj
+.\Release\timer.obj
+.\Release\data.res
+\code\minifmod\minifmod.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ese\LOCALS~1\Temp\RSP22F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+glrez.cpp
+nolibc.cpp
+timer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+glrez.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
